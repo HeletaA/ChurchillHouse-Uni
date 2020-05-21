@@ -5,7 +5,7 @@
     padding: 0;
     margin: -1px;
     overflow: hidden;
-    clip: rect(0, 0, 0, 0);
+    clip: rect(0, 0, 0, 0); 
     border: 0;
 }
 
@@ -16,11 +16,11 @@
     padding: .75em 15px;
     line-height: 1em;
     font-size: 1em;
-    color: #333;
+    color: white;
 }
 
 .menu-toggle:hover, .menu-toggle:focus {
-    color: #c00;
+    color: rgb(254, 221, 111);
 }
 
 /*
@@ -30,11 +30,11 @@
 
 .main-menu {
     position: absolute;
+    overflow: hidden;
     display: none;
     left: -200px;
     top: 0;
     height: 100%;
-    overflow-y: scroll;
     overflow-x: visible;
     transition: left 0.3s ease, box-shadow 0.3s ease;
     z-index: 999;
@@ -45,12 +45,12 @@
     margin: 0;
     padding: 2.5em 0 0;
     /* Hide shadow w/ -8px while 'closed' */
-    -webkit-box-shadow: -8px 0 8px rgba(0, 0, 0, .5);
-    -moz-box-shadow: -8px 0 8px rgba(0, 0, 0, .5);
-    box-shadow: -8px 0 8px rgba(0, 0, 0, .5);
+    -webkit-box-shadow: -8px 0 8px rgb(254, 197, 111);;
+    -moz-box-shadow: -8px 0 8px rgb(223, 188, 70);
+    box-shadow: -8px 0 8px rgb(223, 188, 70);
     min-height: 100%;
     width: 200px;
-    background: #1a1a1a;
+    background: rgb(223, 188, 70);
 }
 
 .main-menu a {
@@ -60,16 +60,13 @@
     font-size: 1em;
     color: #fff;
     text-decoration: none;
-    border-bottom: 1px solid #383838;
-}
-
-.main-menu li:first-child a {
-    border-top: 1px solid #383838;
+    background-color: white; 
+    border-bottom: 1px solid rgb(254, 221, 111);
 }
 
 .main-menu a:hover, .main-menu a:focus {
-    background: #333;
-    text-decoration: underline;
+    background: rgb(254, 197, 111);
+    text-decoration: none;
 }
 
 .main-menu .menu-close {
@@ -120,7 +117,7 @@
  Horizontal menu
 */
 
-@media (min-width: 768px) {
+@media (min-device-width: 768px) {
     .menu-toggle, .main-menu .menu-close {
         display: none;
     }
@@ -135,6 +132,7 @@
     }
     .main-menu ul {
         display: flex;
+        float:right;
         /* Undo off-canvas styling */
         padding: 0;
         -webkit-box-shadow: none;
@@ -145,12 +143,14 @@
         background: none;
     }
     .main-menu a {
-        color: #06c;
-        border: 0 !important;
-        /* Remove borders from off-canvas styling */
+        text-transform: uppercase;
+        border: none;
+      
+
     }
     .main-menu a:hover, .main-menu a:focus {
         background: none;
+        background-color: rgb(254, 197, 111);
         /* Remove background from off-canvas styling */
         color: #c00;
     }

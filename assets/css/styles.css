@@ -21,10 +21,6 @@ body {
     margin: 0 auto;
 }
 
-/* header {
-    background-color: aqua;
-   } */
-
 /*typography*/
 
 h1, h2, h3 {
@@ -32,19 +28,13 @@ h1, h2, h3 {
     margin: 20px 0px 20px 0px;
 }
 
-/* h1 {
-       /* background-color: pink; */
-
-font-family: sans-serif;
-/*    padding: 50 px 0px 50px 0px;*/
-
-/* font-size: 80px; */
-
-/* font-weight: 700;
+h1{
+    font-size: 80px;
+    font-family: sans-serif;
+    padding: 50 px 0px 50px 0px;
+    color: rgb(190, 87, 34); 
+    font-weight: 700;
     margin-top: 50px;
-    color: rgb(190, 87, 34); */
-
-*/
 }
 
 h2 {
@@ -94,52 +84,29 @@ a:active {
 
 /* Navigation */
 
-/* nav {
-       background-color: red;
-   
-}
-
 nav ul li {
     background-color: blueviolet;
     display: inline;
     font-weight: normal;
     float: right;
-
 }
 
 nav ul li a {
     text-decoration: none;
-    /*    background-color: white;*/
-
-/* padding: 10px 15px;
-    text-transform: uppercase;
-    letter-spacing: 0.5px; */
-
+    padding: 10px 15px;
 }
 
-/* nav ul li a:hover {
-    background-color: rgb(254, 197, 111);
-    text-decoration: none; */
-
-}
-
-/* main {
-    background-color: yellow;
-} */
-
-/* ul { */
-
-/* list-style: disc;
+ul {
+    list-style: disc;
     list-style-position: inside;
-    padding-left: 10px; */
+    padding-left: 10px;
+}
 
-/* } */
-
-/* ul li {
+ul li {
     font-size: 16px;
     line-height: 24px;
-    font-weight: 500; 
-}  */
+    font-weight: 500;
+}
 
 footer {
     background-color: orange;
@@ -174,22 +141,3 @@ a#top {
     padding: 10px;
     transform: rotate(-135deg);
 }
-
-/*Grid for sections*/
-
-section#architect {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-
-section#churchillhouse {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-
-section#present {
-    display: grid;
-    grid-template-columns: 1fr 1 fr;
-}
-
-*/
