@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,669;0,700;0,800;0,900;1,400;1,500;1,600;1,669;1,700;1,800;1,900&display=swap');
-
 html {
     scroll-behavior: smooth;
 }
 
 svg#logo {
-    width: 30%;
-    float: left;
+    width: 20%;
+    margin-top: 20px;
+    padding: 10px;
 }
 
 body {
@@ -16,39 +16,36 @@ body {
     font-size: 16px;
 }
 
-/*
 .wrapper {
     width: 980px;
     margin: 0 auto;
-}*/
-
-header {
-    /*    background-color: aqua;*/
-    height: 100px;
-    position: relative;
 }
+
+/* header {
+    background-color: aqua;
+   } */
 
 /*typography*/
 
-h1,
-h2,
-h3,
-    {
+h1, h2, h3 {
     font-family: 'Playfair Display', serif;
     margin: 20px 0px 20px 0px;
 }
 
-h1 {
-    /*    background-color: pink;*/
-    font-family: sans-serif;
-    /*    padding: 50 px 0px 50px 0px;*/
-    font-size: 80px;
-    font-weight: 700;
+/* h1 {
+       /* background-color: pink; */
+
+font-family: sans-serif;
+/*    padding: 50 px 0px 50px 0px;*/
+
+/* font-size: 80px; */
+
+/* font-weight: 700;
     margin-top: 50px;
-    color: rgb(190, 87, 34);
+    color: rgb(190, 87, 34); */
+
+*/
 }
-
-
 
 h2 {
     font-size: 30px;
@@ -56,7 +53,6 @@ h2 {
     font-weight: 500;
     color: rgb(190, 87, 34);
     padding-top: 10px;
-
 }
 
 h3 {
@@ -67,7 +63,6 @@ h3 {
     color: rgb(190, 87, 34);
     margin-top: 20px;
     padding-bottom: 10px;
-
 }
 
 p {
@@ -83,7 +78,6 @@ p {
 a {
     color: rgb(190, 155, 34);
     text-decoration: none;
-
 }
 
 a:hover {
@@ -98,52 +92,54 @@ a:active {
     color: rgb(11, 65, 11);
 }
 
-/*main containers*/
+/* Navigation */
 
-nav {
-    /*    background-color: red;*/
-    margin-top: 130px;
-    padding: 10px;
-    position: absolute;
-    bottom: 0;
-    right: 0;
+/* nav {
+       background-color: red;
+   
 }
 
 nav ul li {
+    background-color: blueviolet;
     display: inline;
     font-weight: normal;
+    float: right;
 
 }
 
 nav ul li a {
     text-decoration: none;
     /*    background-color: white;*/
-    padding: 10px 15px;
+
+/* padding: 10px 15px;
     text-transform: uppercase;
-    letter-spacing: 0.5px;
+    letter-spacing: 0.5px; */
+
 }
 
-
-nav ul li a:hover {
+/* nav ul li a:hover {
     background-color: rgb(254, 197, 111);
-    text-decoration: none;
+    text-decoration: none; */
+
 }
 
-main {
+/* main {
     background-color: yellow;
-}
+} */
 
-ul {
-    list-style: disc;
+/* ul { */
+
+/* list-style: disc;
     list-style-position: inside;
-    padding-left: 10px;
-}
+    padding-left: 10px; */
 
-ul li {
+/* } */
+
+/* ul li {
     font-size: 16px;
     line-height: 24px;
-    font-weight: 500;
-}
+    font-weight: 500; 
+}  */
 
 footer {
     background-color: orange;
@@ -157,7 +153,6 @@ footer {
     background-color: white;
     border: 4px solid rgb(223, 188, 70);
     padding: 15px;
-
 }
 
 .imagetwo {
@@ -173,7 +168,6 @@ a#top {
     position: fixed;
     bottom: 0;
     right: 30px;
-
     border: solid black;
     border-width: 0 3px 3px 0;
     display: inline-block;
@@ -197,3 +191,5 @@ section#present {
     display: grid;
     grid-template-columns: 1fr 1 fr;
 }
+
+*/
