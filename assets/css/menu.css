@@ -11,12 +11,12 @@
 
 /* Button styling */
 
-.menu-toggle {
-    display: inline-block;
+a.menu-toggle {
     float: right;
     padding: .75em 15px;
+    margin-right: 0.5em;
     line-height: 1em;
-    font-size: 1em;
+    font-size: 2.5em;
     color: white;
     
 }
@@ -154,6 +154,6 @@
         background: none;
         background-color: rgb(254, 197, 111);
         /* Remove background from off-canvas styling */
-        color: #c00;/
+        color: #c00;
     }
 }
