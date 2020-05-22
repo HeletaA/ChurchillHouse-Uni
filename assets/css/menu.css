@@ -13,10 +13,12 @@
 
 .menu-toggle {
     display: inline-block;
+    float: right;
     padding: .75em 15px;
     line-height: 1em;
     font-size: 1em;
     color: white;
+    
 }
 
 .menu-toggle:hover, .menu-toggle:focus {
@@ -152,6 +154,6 @@
         background: none;
         background-color: rgb(254, 197, 111);
         /* Remove background from off-canvas styling */
-        color: #c00;
+        color: #c00;/
     }
 }
