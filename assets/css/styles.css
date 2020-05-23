@@ -11,12 +11,6 @@ img#logo {
     padding: 10px;
 }
 
-/* Heaader height */
-
-header {
-    height: 250px;
-}
-
 body {
     /*    background-color: #B5CA8B color: #ffffff;*/
     /*    make sure you set family and size on body*/
@@ -190,7 +184,7 @@ footer>.footerlogo {
     footer {
         display: flex;
         justify-content: flex-end;
-        margin-right: 7vw;
+        margin-right: 10vw;
         margin-top: 2vw;
     }
 }
